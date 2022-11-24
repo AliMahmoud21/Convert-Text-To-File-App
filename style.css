@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@300;400;700&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@100;300;500;600;800;900&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: darkcyan;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 32rem;
+    background-color: #fff;
+    padding: 1.8rem 1.5625rem 2.67rem;
+    border-radius: .3rem;
+}
+.wrapper :where(textarea, input, select, button) {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.125rem;
+    border-radius: .3rem;
+}
+.wrapper textarea {
+    height: 18rem;
+    max-width: 94%;
+    resize: none;
+    padding: .53rem .9rem;
+    border: 1px solid #ccc;
+}
+.wrapper .file-option {
+    margin-top: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .file-option .option {
+    width: calc((100% / 2) - 8px);
+}
+.wrapper .file-option label {
+    color: #222;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.wrapper .file-name {
+    margin-right: 50px;
+}
+.option input, select {
+    height: 50px;
+    padding: 0 1rem;
+    margin-top: 6px;
+    border-radius: .3rem;
+    border: 1px solid #bfbfbf;
+}
+.option .select-menu select {
+    height: 50px;
+}
+.wrapper .save-btn {
+    color: #fff;
+    margin-top: 20px;
+    padding: 16px 0;
+    cursor: pointer;
+    background-color: darkcyan;
+}
